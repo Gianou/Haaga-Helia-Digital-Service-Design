@@ -11,26 +11,26 @@ html {
 }
 
 /* Defining max width for A4 format */
-body {
-    max-width: 210mm;
+#custom-body {
+    max-width: 360mm;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes up the entire viewport height */
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow here */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling the header and footer with different background colors */
-header {
+#custom-header {
     background-color: lightblue;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
-footer {
+#custom-footer {
     background-color: lightblue;
     color: white;
     padding: 10px;
@@ -39,13 +39,13 @@ footer {
 }
 
 /* Styling the body with a white background and flex-grow to take the remaining space */
-main {
+#custom-main {
     background-color: white;
     flex-grow: 1;
     padding: 20px;
 }
 
-h1 {
+#custom-subtitle {
     text-align: center;
     padding: 20px;
 }
