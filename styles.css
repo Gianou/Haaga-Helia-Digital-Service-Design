@@ -1,0 +1,51 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Applying a shadow effect on top of the HTML background */
+html {
+    background-color: white;
+}
+
+/* Defining max width for A4 format */
+body {
+    max-width: 210mm;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the entire viewport height */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow here */
+}
+
+/* Styling the header and footer with different background colors */
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Styling the body with a white background and flex-grow to take the remaining space */
+main {
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
