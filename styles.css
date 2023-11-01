@@ -50,7 +50,23 @@ html {
     justify-content: space-around;
 }
 
+.card{
+    width: 18rem;
+}
+
 #custom-subtitle {
     text-align: center;
     padding: 20px;
+}
+
+/* Media query for phones */
+@media (max-width: 900px) {
+    #custom-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        
+    }
 }
