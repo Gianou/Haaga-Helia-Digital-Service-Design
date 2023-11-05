@@ -45,13 +45,15 @@ html {
     padding: 20px;
 }
 
-#custom-card-container{
+#custom-card-container {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.card{
-    width: 18rem;
+.card {
+    width: calc(50% - 20px); /* Subtract the margin from 50% to ensure two cards fit in a row */
+    margin: 10px; /* Adjust the margin as needed */
 }
 
 #custom-subtitle {
@@ -66,7 +68,8 @@ html {
         align-items: center;
     }
 
-    .card{
-        
+    .card {
+        width: calc(80% - 20px); /* Subtract the margin from 50% to ensure two cards fit in a row */
+        margin: 10px; /* Adjust the margin as needed */
     }
 }
