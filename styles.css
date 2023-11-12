@@ -61,6 +61,34 @@ html {
     padding: 20px;
 }
 
+
+#custom-navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+#custom-navigation li {
+  margin: 0;
+}
+
+#custom-navigation a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#custom-navigation a:hover {
+  background-color: #555;
+}
+
+.active a /*Change colors of the current page's link to indicate what page is currently displayed*/ {
+  background-color: #404040 !important;
+}
+
 /* Media query for phones */
 @media (max-width: 900px) {
     #custom-card-container {
