@@ -89,6 +89,14 @@ html {
   background-color: #404040 !important;
 }
 
+#SolutionSketchContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+/* For pages display : https://getbootstrap.com/docs/4.1/components/collapse/  */
+
+
 /* Media query for phones */
 @media (max-width: 900px) {
     #custom-card-container {
