@@ -12,7 +12,7 @@ html {
 
 /* Defining max width for A4 format */
 #custom-body {
-    max-width: 360mm;
+    max-width: 80vw;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -43,6 +43,35 @@ html {
     background-color: white;
     flex-grow: 1;
     padding: 20px;
+}
+
+/* Styling for h1 */
+h1 {
+  font-size: 45px !important;
+   margin-top: 40px !important;
+  font-weight: bold;
+}
+
+/* Styling for h2 */
+h2 {
+  font-size: 40px !important;
+  font-weight: bold;
+}
+
+/* Styling for h3 */
+h3 {
+  font-size:  28 !important;
+  font-weight: bold;
+  margin-top: 40px !important;
+  color:white;
+    background-color: lightblue; /* Set your desired background color */
+  display: inline-block; /* Make the background only as wide as the content */
+  padding: 10px; /* Add some padding for better visual appearance */
+  border-radius: 20px; /* Optional: Add rounded corners */
+}
+
+li, div, p {
+    font-size:  20px !important;
 }
 
 #custom-card-container {
