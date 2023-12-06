@@ -5,42 +5,43 @@
     box-sizing: border-box;
 }
 
-/* Applying a shadow effect on top of the HTML background */
+
 html {
-    background-color: white;
+    background-color: #4d4645;
 }
+
 
 /* Defining max width*/
 #custom-body {
-    max-width: 80vw;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #F1FAFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Styling the header and footer with different background colors */
 #custom-header {
-    background-color: lightblue;
-    color: white;
+    background-color: #0079c2;
+    color: #F1FAFF;
     padding: 10px;
     text-align: center;
 }
 
 #custom-footer {
-    background-color: lightblue;
-    color: white;
+    background-color: #0079c2;
+    color: #F1FAFF;
     padding: 10px;
     text-align: center;
     margin-top: auto;
 }
 
-/* Styling the body with a white background and flex-grow to take the remaining space */
+/* Styling the body with a #F1FAFF background and flex-grow to take the remaining space */
 #custom-main {
-    background-color: white;
+    background-color: #F1FAFF;
     flex-grow: 1;
     padding: 20px;
 }
@@ -63,11 +64,20 @@ h3 {
   font-size:  28 !important;
   font-weight: bold;
   margin-top: 40px !important;
-  color:white;
-    background-color: lightblue; /* Set your desired background color */
+  color:#F1FAFF;
+    background-color: #0079c2; /* Set your desired background color */
   display: inline-block; /* Make the background only as wide as the content */
   padding: 10px; /* Add some padding for better visual appearance */
   border-radius: 20px; /* Optional: Add rounded corners */
+}
+
+h4{
+  color:#0079c2;
+}
+
+.text{
+  margin: 20px 40px 40px 20px;
+  max-width: 1200px;
 }
 
 li, div, p {
@@ -122,6 +132,35 @@ li, div, p {
     display: flex;
     flex-direction: row;
 }
+
+
+.mockupViewScreenshot {
+    max-height: 400px;
+    width: auto; /* To maintain the aspect ratio */
+    display: block; /* Ensures that the max-height property works correctly */
+    margin: 10px 0; /* Optional margin for spacing */
+}
+.mockupCard {
+    display: flex;
+}
+
+.mockupCard .cardContent {
+    display: flex;
+    width: 100%;
+}
+
+.mockupCard .titleAndText {
+    flex: 1;
+}
+
+.mockupCard h4 {
+    margin-bottom: 10px; /* Add some space between title and text */
+}
+
+.mockupCard img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+}
+
 
 /* For pages display : https://getbootstrap.com/docs/4.1/components/collapse/  */
 
