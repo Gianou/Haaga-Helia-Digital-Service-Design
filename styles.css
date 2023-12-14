@@ -171,6 +171,18 @@ li, div, p {
 }
 
 
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Optional: Adjust based on your preference */
+}
+
+.image-container img {
+    width: 48%; /* Adjust based on your preference */
+    margin-bottom: 10px; /* Optional: Adjust spacing between images */
+}
+
+
 /* For pages display : https://getbootstrap.com/docs/4.1/components/collapse/  */
 
 
